@@ -36,10 +36,10 @@ var searchData=
   ['dllsym',['DLLSYM',['../a00867.html#ab90d161af4ce92c48d61bb06c325308f',1,'platform.h']]],
   ['do_5fnothing',['DO_NOTHING',['../a01044.html#aaa67df6726d3707c387dec5d0355b1ee',1,'danerror.h']]],
   ['dot_5fband',['DOT_BAND',['../a01103.html#ae4c131287e6e6fad1bb401d60d7f7e9d',1,'blkocc.h']]],
-  ['double_5finit_5fmember',['double_INIT_MEMBER',['../a00866.html#a92f2175066b2fa48d88b116b42001391',1,'params.h']]],
+  ['double_5finit_5fmember',['DOUBLE_INIT_MEMBER',['../a00866.html#a92f2175066b2fa48d88b116b42001391',1,'params.h']]],
   ['double_5finit_5fvar',['double_INIT_VAR',['../a00866.html#a5c68cff8d34a13187ca313f7552390fd',1,'params.h']]],
-  ['double_5fmember',['double_MEMBER',['../a00866.html#abc29757c0b64587fef3aa7556e2fd7b9',1,'params.h']]],
+  ['double_5fmember',['DOUBLE_MEMBER',['../a00866.html#abc29757c0b64587fef3aa7556e2fd7b9',1,'params.h']]],
   ['double_5fparam_5fflag',['DOUBLE_PARAM_FLAG',['../a01184.html#a0f2a745854800cb30fd76f82a7a11958',1,'commandlineflags.h']]],
-  ['double_5fvar',['double_VAR',['../a00866.html#aa855c84dbbf962a5533a96e1f458c690',1,'params.h']]],
-  ['double_5fvar_5fh',['double_VAR_H',['../a00866.html#ac9b655e8ebd14897cfc161f2f47797a0',1,'params.h']]]
+  ['double_5fvar',['DOUBLE_VAR',['../a00866.html#aa855c84dbbf962a5533a96e1f458c690',1,'params.h']]],
+  ['double_5fvar_5fh',['DOUBLE_VAR_H',['../a00866.html#ac9b655e8ebd14897cfc161f2f47797a0',1,'params.h']]]
 ];

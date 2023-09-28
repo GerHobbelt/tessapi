@@ -32,9 +32,9 @@ var searchData=
   ['dist_5fsquare',['dist_square',['../a01586.html#a4704502e33ce53a635b29d6872ea23a6',1,'outlines.h']]],
   ['dllsym',['DLLSYM',['../a00560.html#ab90d161af4ce92c48d61bb06c325308f',1,'platform.h']]],
   ['dot_5fband',['DOT_BAND',['../a01097.html#ae4c131287e6e6fad1bb401d60d7f7e9d',1,'blkocc.h']]],
-  ['double_5finit_5fmember',['double_INIT_MEMBER',['../a00557.html#a92f2175066b2fa48d88b116b42001391',1,'params.h']]],
-  ['double_5fmember',['double_MEMBER',['../a00557.html#abc29757c0b64587fef3aa7556e2fd7b9',1,'params.h']]],
+  ['double_5finit_5fmember',['DOUBLE_INIT_MEMBER',['../a00557.html#a92f2175066b2fa48d88b116b42001391',1,'params.h']]],
+  ['double_5fmember',['DOUBLE_MEMBER',['../a00557.html#abc29757c0b64587fef3aa7556e2fd7b9',1,'params.h']]],
   ['double_5fparam_5fflag',['DOUBLE_PARAM_FLAG',['../a01343.html#a0f2a745854800cb30fd76f82a7a11958',1,'commandlineflags.h']]],
-  ['double_5fvar',['double_VAR',['../a00557.html#aa855c84dbbf962a5533a96e1f458c690',1,'params.h']]],
-  ['double_5fvar_5fh',['double_VAR_H',['../a00557.html#ac9b655e8ebd14897cfc161f2f47797a0',1,'params.h']]]
+  ['double_5fvar',['DOUBLE_VAR',['../a00557.html#aa855c84dbbf962a5533a96e1f458c690',1,'params.h']]],
+  ['double_5fvar_5fh',['DOUBLE_VAR_H',['../a00557.html#ac9b655e8ebd14897cfc161f2f47797a0',1,'params.h']]]
 ];
