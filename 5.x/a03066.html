@@ -107,7 +107,7 @@ Inheritance diagram for tesseract::StringParam:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a40a11080380d683951aa43c8205bca29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03066.html#a40a11080380d683951aa43c8205bca29">StringParam</a> (const char *value, const char *name, const char *comment, bool init, <a class="el" href="a03046.html">ParamsVectors</a> *vec)</td></tr>
+<tr class="memitem:a40a11080380d683951aa43c8205bca29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03066.html#a40a11080380d683951aa43c8205bca29">StringParam</a> (const char *value, const char *name, const char *comment, bool init, <a class="el" href="a03046.html">ParamsVectorSet</a> *vec)</td></tr>
 <tr class="separator:a40a11080380d683951aa43c8205bca29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9b4f87236422c6389e66dcc4d08583"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03066.html#a5b9b4f87236422c6389e66dcc4d08583">~StringParam</a> ()</td></tr>
 <tr class="separator:a5b9b4f87236422c6389e66dcc4d08583"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,7 +125,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a12824dcbc4500b02020b58e76ae4d8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6307a498e62ff3cefc853838d87b2a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03066.html#ac6307a498e62ff3cefc853838d87b2a0">ResetToDefault</a> ()</td></tr>
 <tr class="separator:ac6307a498e62ff3cefc853838d87b2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb03af91531515ca069f15b8f3a2ab41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03066.html#afb03af91531515ca069f15b8f3a2ab41">ResetFrom</a> (const <a class="el" href="a03046.html">ParamsVectors</a> *vec)</td></tr>
+<tr class="memitem:afb03af91531515ca069f15b8f3a2ab41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03066.html#afb03af91531515ca069f15b8f3a2ab41">ResetFrom</a> (const <a class="el" href="a03046.html">ParamsVectorSet</a> *vec)</td></tr>
 <tr class="separator:afb03af91531515ca069f15b8f3a2ab41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_a03054"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a03054')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a03054.html">tesseract::Param</a></td></tr>
 <tr class="memitem:afa2effa665e5bf64bb0ad39ddb651dab inherit pub_methods_a03054"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03054.html#afa2effa665e5bf64bb0ad39ddb651dab">~Param</a> ()=default</td></tr>
@@ -196,7 +196,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a03046.html">ParamsVectors</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a03046.html">ParamsVectorSet</a> *&#160;</td>
           <td class="paramname"><em>vec</em>&#160;</td>
         </tr>
         <tr>
@@ -215,7 +215,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="a00554_source.html#l00220">220</a> of file <a class="el" href="a00554_source.html">params.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                      { value_ = value; }</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="a03066.html#ac6307a498e62ff3cefc853838d87b2a0">ResetToDefault</a>() { value_ = default_; }</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="a03066.html#afb03af91531515ca069f15b8f3a2ab41">ResetFrom</a>(<span class="keyword">const</span> ParamsVectors* vec) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="a03066.html#afb03af91531515ca069f15b8f3a2ab41">ResetFrom</a>(<span class="keyword">const</span> ParamsVectorSet* vec) {</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; vec-&gt;string_params.size(); ++i) {</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;      <span class="keywordflow">if</span> (strcmp(vec-&gt;string_params[i]-&gt;name_str(), <a class="code" href="a03054.html#a4b6738dba276ac5d1cb46b4848b93849">name_</a>) == 0) {</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="comment">// printf(&quot;overriding param %s=%s by =%s\n&quot;, name_, value_,</span></div>
@@ -413,7 +413,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void tesseract::StringParam::ResetFrom </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a03046.html">ParamsVectors</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="a03046.html">ParamsVectorSet</a> *&#160;</td>
           <td class="paramname"><em>vec</em></td><td>)</td>
           <td></td>
         </tr>
@@ -429,7 +429,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                  : <span class="keyword">public</span> <a class="code" href="a03054.html#a7d2b3a9b8108f1c1b973f4f498114482">Param</a> {</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;  DoubleParam(<span class="keywordtype">double</span> value, <span class="keyword">const</span> <span class="keywordtype">char</span>* name, <span class="keyword">const</span> <span class="keywordtype">char</span>* comment, <span class="keywordtype">bool</span> init,</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;              ParamsVectors* vec)</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;              ParamsVectorSet* vec)</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      : <a class="code" href="a03054.html#a7d2b3a9b8108f1c1b973f4f498114482">Param</a>(name, comment, init) {</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    value_ = value;</div>
 </div><!-- fragment -->
@@ -498,7 +498,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aa02542_html"><div class="ttname"><a href="a02542.html">STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="a00044_source.html#l00045">strngs.h:45</a></div></div>
-<div class="ttc" id="aa03066_html_afb03af91531515ca069f15b8f3a2ab41"><div class="ttname"><a href="a03066.html#afb03af91531515ca069f15b8f3a2ab41">tesseract::StringParam::ResetFrom</a></div><div class="ttdeci">void ResetFrom(const ParamsVectors *vec)</div><div class="ttdef"><b>Definition:</b> <a href="a00554_source.html#l00236">params.h:236</a></div></div>
+<div class="ttc" id="aa03066_html_afb03af91531515ca069f15b8f3a2ab41"><div class="ttname"><a href="a03066.html#afb03af91531515ca069f15b8f3a2ab41">tesseract::StringParam::ResetFrom</a></div><div class="ttdeci">void ResetFrom(const ParamsVectorSet *vec)</div><div class="ttdef"><b>Definition:</b> <a href="a00554_source.html#l00236">params.h:236</a></div></div>
 <div class="ttc" id="aa03054_html_a7d2b3a9b8108f1c1b973f4f498114482"><div class="ttname"><a href="a03054.html#a7d2b3a9b8108f1c1b973f4f498114482">tesseract::Param::Param</a></div><div class="ttdeci">Param(const char *name, const char *comment, bool init)</div><div class="ttdef"><b>Definition:</b> <a href="a00554_source.html#l00141">params.h:141</a></div></div>
 <div class="ttc" id="aa03054_html_a4b6738dba276ac5d1cb46b4848b93849"><div class="ttname"><a href="a03054.html#a4b6738dba276ac5d1cb46b4848b93849">tesseract::Param::name_</a></div><div class="ttdeci">const char * name_</div><div class="ttdef"><b>Definition:</b> <a href="a00554_source.html#l00146">params.h:146</a></div></div>
 <div class="ttc" id="aa03066_html_ac6307a498e62ff3cefc853838d87b2a0"><div class="ttname"><a href="a03066.html#ac6307a498e62ff3cefc853838d87b2a0">tesseract::StringParam::ResetToDefault</a></div><div class="ttdeci">void ResetToDefault()</div><div class="ttdef"><b>Definition:</b> <a href="a00554_source.html#l00235">params.h:235</a></div></div>

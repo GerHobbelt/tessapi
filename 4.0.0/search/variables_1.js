@@ -62,7 +62,7 @@ var searchData=
   ['body_5findent',['body_indent',['../a02298.html#ad93fd7da400c47c8362bc98b889b6e0b',1,'tesseract::GeometricClassifierState']]],
   ['body_5fsize',['body_size',['../a02378.html#a19f4bcbb07931b5db5274a1207af9ec2',1,'TO_ROW']]],
   ['bold',['bold',['../a02534.html#a6b5a6f4d5cd0ba1f9f3f6e9363a6fbae',1,'BLOCK_RES::bold()'],['../a02542.html#aab88c163b4ef9e6a147222f2ec981a9c',1,'WERD_RES::bold()']]],
-  ['bool_5fparams',['bool_params',['../a02790.html#a6bb13133287d8d8d18c81bb974b1b54f',1,'tesseract::ParamsVectors']]],
+  ['bool_5fparams',['bool_params',['../a02790.html#a6bb13133287d8d8d18c81bb974b1b54f',1,'tesseract::ParamsVectorSet']]],
   ['botright',['botright',['../a02394.html#a7abcd2efd1cd8cdc820e304cf8ae1f0c',1,'TESSLINE']]],
   ['bottom',['bottom',['../a02782.html#aff466a1e93e8013808e69f14ab9051dc',1,'EANYCODE_CHAR']]],
   ['bounding_5fbox',['bounding_box',['../a04678.html#a556aa786afc1896fc69655a38163b15b',1,'tesseract::BlockGroup']]],

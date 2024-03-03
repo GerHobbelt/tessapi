@@ -83,7 +83,7 @@ var searchData=
   ['stopper_5fsmallword_5fsize',['stopper_smallword_size',['../a04290.html#af37cc8127c3872088d93aabaf3453e25',1,'tesseract::Dict']]],
   ['str',['str',['../a02550.html#a5dee966c19cad16f4eba3efc879f51b3',1,'tesseract::ParamsTrainingHypothesis']]],
   ['stream_5ffilelist',['stream_filelist',['../a00005.html#ad341e2a0385debc2342a18dfa9e5b3ec',1,'baseapi.cpp']]],
-  ['string_5fparams',['string_params',['../a02790.html#a446a70d7d7c85af255d053ae54c5df8a',1,'tesseract::ParamsVectors']]],
+  ['string_5fparams',['string_params',['../a02790.html#a446a70d7d7c85af255d053ae54c5df8a',1,'tesseract::ParamsVectorSet']]],
   ['strip_5funrenderable_5fwords_5f',['strip_unrenderable_words_',['../a04730.html#abad42e9d49c5d76a07419085cfbc6f8d',1,'tesseract::StringRenderer']]],
   ['style',['Style',['../a04034.html#aad81f08b6e171698866b445c0b3d4b35',1,'PROTOTYPE']]],
   ['sub_5ftrainer_5f',['sub_trainer_',['../a04390.html#a83b014eb1f67c01296b1685e537f4f48',1,'tesseract::LSTMTrainer']]],

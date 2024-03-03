@@ -322,7 +322,7 @@ var searchData=
   ['double_5finit_5fmember_1703',['DOUBLE_INIT_MEMBER',['../a00554.html#a92f2175066b2fa48d88b116b42001391',1,'params.h']]],
   ['double_5fmember_1704',['DOUBLE_MEMBER',['../a00554.html#abc29757c0b64587fef3aa7556e2fd7b9',1,'params.h']]],
   ['double_5fparam_5fflag_1705',['DOUBLE_PARAM_FLAG',['../a01247.html#a0f2a745854800cb30fd76f82a7a11958',1,'DOUBLE_PARAM_FLAG():&#160;commandlineflags.h'],['../a01610.html#a8abc94ce58432cdfe6d3ebe04fe5080a',1,'DOUBLE_PARAM_FLAG(foo_double, 0.1, &quot;Double flag for testing&quot;):&#160;commandlineflags_test.cc'],['../a01610.html#a3cea4b00028ab0bb9809bfec5567b00f',1,'DOUBLE_PARAM_FLAG(bar_double, 0.2, &quot;Double flag for testing&quot;):&#160;commandlineflags_test.cc']]],
-  ['double_5fparams_1706',['double_params',['../a03046.html#a8fa1f078ca627582879eaadc6e00a2ba',1,'tesseract::ParamsVectors']]],
+  ['double_5fparams_1706',['double_params',['../a03046.html#a8fa1f078ca627582879eaadc6e00a2ba',1,'tesseract::ParamsVectorSet']]],
   ['double_5fthe_5fsize_1707',['double_the_size',['../a02434.html#af0214c8c21da9eb57dfebc78611d0cd6',1,'GenericVector::double_the_size()'],['../a02894.html#a5b6bf42443f90cbc2421560ba5757e46',1,'WERD_CHOICE::double_the_size()']]],
   ['double_5fthe_5fsize_5fmemcpy_1708',['double_the_size_memcpy',['../a02434.html#a85308b8287bcb7924d64175cbc681f89',1,'GenericVector']]],
   ['double_5fvar_1709',['DOUBLE_VAR',['../a00554.html#aa855c84dbbf962a5533a96e1f458c690',1,'params.h']]],

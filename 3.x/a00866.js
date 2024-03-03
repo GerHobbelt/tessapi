@@ -1,6 +1,6 @@
 var a00866 =
 [
-    [ "ParamsVectors", "a00516.html", "a00516" ],
+    [ "ParamsVectorSet", "a00516.html", "a00516" ],
     [ "ParamUtils", "a00517.html", null ],
     [ "Param", "a00509.html", "a00509" ],
     [ "IntParam", "a00448.html", "a00448" ],

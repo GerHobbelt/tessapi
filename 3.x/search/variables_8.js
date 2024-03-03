@@ -35,7 +35,7 @@ var searchData=
   ['inputs_5fmin_5f',['inputs_min_',['../a00487.html#aa05bfd6191232cf25b79752fd1a38117',1,'tesseract::NeuralNet']]],
   ['inputs_5fstd_5fdev_5f',['inputs_std_dev_',['../a00487.html#a8d03fb672b6283010bbd32135303b60a',1,'tesseract::NeuralNet']]],
   ['instance_5f',['instance_',['../a00466.html#a2dfc35aae71697ea0d90f0e73980fc43',1,'tesseract::LigatureTable']]],
-  ['int_5fparams',['int_params',['../a00516.html#a22c42b48d2c626d2f3f3b0abd21bc902',1,'tesseract::ParamsVectors']]],
+  ['int_5fparams',['int_params',['../a00516.html#a22c42b48d2c626d2f3f3b0abd21bc902',1,'tesseract::ParamsVectorSet']]],
   ['interactive_5fdisplay_5fmode',['interactive_display_mode',['../a00624.html#a51f1cb37c2fff5e2ade385b160c3a0e3',1,'tesseract::Tesseract']]],
   ['intfeatdesc',['IntFeatDesc',['../a00910.html#abcae860ec494b3a15b6db31638a1d2f2',1,'featdefs.h']]],
   ['intmatchwindow',['IntMatchWindow',['../a00925.html#a3e2601e005e31466f29ed35791e280dc',1,'intproto.cpp']]],

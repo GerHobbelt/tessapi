@@ -406,7 +406,7 @@ var hierarchy =
     [ "tesseract::ParamsModel", "a04046.html", null ],
     [ "tesseract::ParamsTrainingBundle", "a02842.html", null ],
     [ "tesseract::ParamsTrainingHypothesis", "a02838.html", null ],
-    [ "tesseract::ParamsVectors", "a03046.html", null ],
+    [ "tesseract::ParamsVectorSet", "a03046.html", null ],
     [ "tesseract::ParamUtils", "a03050.html", null ],
     [ "PB_LINE_IT", "a02874.html", null ],
     [ "PDBLK", "a02846.html", null ],

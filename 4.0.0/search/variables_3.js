@@ -58,7 +58,7 @@ var searchData=
   ['done',['done',['../a02542.html#a2bd2ff4f993746fc87d3ee88357a4a88',1,'WERD_RES']]],
   ['dont_5fassign_5flists',['DONT_ASSIGN_LISTS',['../a00542.html#ad324cbd7e4b9d11e46b84785d3a5bea9',1,'lsterr.h']]],
   ['dont_5fconstruct_5flist_5fby_5fcopy',['DONT_CONSTRUCT_LIST_BY_COPY',['../a00542.html#a855710b0ec46d26a8a8b566dd6317888',1,'lsterr.h']]],
-  ['double_5fparams',['double_params',['../a02790.html#a83a1b9a0571c97380bdf3a32591cf196',1,'tesseract::ParamsVectors']]],
+  ['double_5fparams',['double_params',['../a02790.html#a83a1b9a0571c97380bdf3a32591cf196',1,'tesseract::ParamsVectorSet']]],
   ['drop_5funcovered_5fchars_5f',['drop_uncovered_chars_',['../a04730.html#adc20e4898963cda4ecfa883090b0b7ad',1,'tesseract::StringRenderer']]],
   ['dummy',['dummy',['../a03966.html#ac0222fcbdb99f1c4b655c71d8fb9b753',1,'TEMP_PROTO_STRUCT::dummy()'],['../a03982.html#aaebf18c866332ce91ac0de9189843326',1,'ADAPT_CLASS_STRUCT::dummy()'],['../a03986.html#a5d9a77ab64a4936e7be1a407b661a7cc',1,'ADAPT_TEMPLATES_STRUCT::dummy()']]],
   ['dump_5fwords_5fstr',['dump_words_str',['../a02350.html#aaddff0b5e3101637acc25da59fe97065',1,'tesseract::TesseractStats']]],

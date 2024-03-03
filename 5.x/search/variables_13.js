@@ -87,7 +87,7 @@ var searchData=
   ['stopper_5fphase2_5fcertainty_5frejection_5foffset_15307',['stopper_phase2_certainty_rejection_offset',['../a03414.html#a73282067f0bb86fcaf689b9202bb6702',1,'tesseract::Dict']]],
   ['stopper_5fsmallword_5fsize_15308',['stopper_smallword_size',['../a03414.html#af37cc8127c3872088d93aabaf3453e25',1,'tesseract::Dict']]],
   ['str_15309',['str',['../a02838.html#a5dee966c19cad16f4eba3efc879f51b3',1,'tesseract::ParamsTrainingHypothesis']]],
-  ['string_5fparams_15310',['string_params',['../a03046.html#ae8138504e19128546676767c15b6d5ad',1,'tesseract::ParamsVectors']]],
+  ['string_5fparams_15310',['string_params',['../a03046.html#ae8138504e19128546676767c15b6d5ad',1,'tesseract::ParamsVectorSet']]],
   ['strip_5funrenderable_5fwords_5f_15311',['strip_unrenderable_words_',['../a03914.html#abad42e9d49c5d76a07419085cfbc6f8d',1,'tesseract::StringRenderer']]],
   ['style_15312',['Style',['../a03202.html#aad81f08b6e171698866b445c0b3d4b35',1,'PROTOTYPE']]],
   ['sub_5ftrainer_5f_15313',['sub_trainer_',['../a03882.html#a83b014eb1f67c01296b1685e537f4f48',1,'tesseract::LSTMTrainer']]],

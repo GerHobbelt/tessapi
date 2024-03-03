@@ -19,7 +19,7 @@ var searchData=
   ['input_5ffile_5f',['input_file_',['../a02186.html#a4690919aa9d4eabda36bdefdaadf7ac9',1,'tesseract::TessBaseAPI']]],
   ['instance_5f',['instance_',['../a04710.html#a89217e4e6e96a4826f68dc2681c90771',1,'tesseract::LigatureTable']]],
   ['int_5fmode_5f',['int_mode_',['../a04318.html#ab8d15fdb015b6075b55d2fd5eb46035c',1,'tesseract::FullyConnected']]],
-  ['int_5fparams',['int_params',['../a02790.html#a22c42b48d2c626d2f3f3b0abd21bc902',1,'tesseract::ParamsVectors']]],
+  ['int_5fparams',['int_params',['../a02790.html#a22c42b48d2c626d2f3f3b0abd21bc902',1,'tesseract::ParamsVectorSet']]],
   ['interactive_5fdisplay_5fmode',['interactive_display_mode',['../a02358.html#a51f1cb37c2fff5e2ade385b160c3a0e3',1,'tesseract::Tesseract']]],
   ['intfeatdesc',['IntFeatDesc',['../a00689.html#abcae860ec494b3a15b6db31638a1d2f2',1,'featdefs.h']]],
   ['intmatchwindow',['IntMatchWindow',['../a00734.html#a3e2601e005e31466f29ed35791e280dc',1,'intproto.cpp']]],

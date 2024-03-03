@@ -16,7 +16,7 @@ var searchData=
   ['paramsmodel',['ParamsModel',['../a04854.html',1,'tesseract']]],
   ['paramstrainingbundle',['ParamsTrainingBundle',['../a02554.html',1,'tesseract']]],
   ['paramstraininghypothesis',['ParamsTrainingHypothesis',['../a02550.html',1,'tesseract']]],
-  ['paramsvectors',['ParamsVectors',['../a02790.html',1,'tesseract']]],
+  ['paramsvectors',['ParamsVectorSet',['../a02790.html',1,'tesseract']]],
   ['paramutils',['ParamUtils',['../a02794.html',1,'tesseract']]],
   ['pb_5fline_5fit',['PB_LINE_IT',['../a02586.html',1,'']]],
   ['pdblk',['PDBLK',['../a02558.html',1,'']]],

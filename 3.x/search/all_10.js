@@ -96,7 +96,7 @@ var searchData=
   ['paramstraininghypothesis',['ParamsTrainingHypothesis',['../a00515.html',1,'tesseract']]],
   ['paramstraininghypothesis',['ParamsTrainingHypothesis',['../a00515.html#a1c30109a96767c1ee27c0b00065ad205',1,'tesseract::ParamsTrainingHypothesis::ParamsTrainingHypothesis()'],['../a00515.html#a00f8e977a94665eefcee06d769a28331',1,'tesseract::ParamsTrainingHypothesis::ParamsTrainingHypothesis(const ParamsTrainingHypothesis &amp;other)']]],
   ['paramstraininghypothesislist',['ParamsTrainingHypothesisList',['../a01278.html#ac276fef8cf1673fac0a8759dcbb0ec4d',1,'tesseract']]],
-  ['paramsvectors',['ParamsVectors',['../a00516.html',1,'tesseract']]],
+  ['paramsvectors',['ParamsVectorSet',['../a00516.html',1,'tesseract']]],
   ['paramtype',['ParamType',['../a00720.html#a3a023c0c27667e78ae521eb64f1c7c81',1,'paramsd.h']]],
   ['paramutils',['ParamUtils',['../a00517.html',1,'tesseract']]],
   ['parent_5fvse',['parent_vse',['../a00664.html#a8fafa528c3935768a6fe19501c619d5b',1,'tesseract::ViterbiStateEntry']]],

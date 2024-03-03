@@ -161,7 +161,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a78260e75469f0e9982531ab08c614400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8973ac26cd06e21f6ad5be99c701b46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#ab8973ac26cd06e21f6ad5be99c701b46">null_char</a> () const</td></tr>
 <tr class="separator:ab8973ac26cd06e21f6ad5be99c701b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a418a806e6c6003b94a923a4ea2fee9c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#a418a806e6c6003b94a923a4ea2fee9c5">Load</a> (const <a class="el" href="a03046.html">ParamsVectors</a> *params, const char *lang, <a class="el" href="a03086.html">TessdataManager</a> *mgr)</td></tr>
+<tr class="memitem:a418a806e6c6003b94a923a4ea2fee9c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#a418a806e6c6003b94a923a4ea2fee9c5">Load</a> (const <a class="el" href="a03046.html">ParamsVectorSet</a> *params, const char *lang, <a class="el" href="a03086.html">TessdataManager</a> *mgr)</td></tr>
 <tr class="separator:a418a806e6c6003b94a923a4ea2fee9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adde3ed27f1b4fa8274f8ddffc672da30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#adde3ed27f1b4fa8274f8ddffc672da30">Serialize</a> (const <a class="el" href="a03086.html">TessdataManager</a> *mgr, <a class="el" href="a02538.html">TFile</a> *fp) const</td></tr>
 <tr class="separator:adde3ed27f1b4fa8274f8ddffc672da30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,7 +171,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a660c8b65fe2f7eed0e44086461d613dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404f703439be175987470a8b0346bfc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#a404f703439be175987470a8b0346bfc4">LoadRecoder</a> (<a class="el" href="a02538.html">TFile</a> *fp)</td></tr>
 <tr class="separator:a404f703439be175987470a8b0346bfc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad356c8be28240520ad5be371f3148cdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#ad356c8be28240520ad5be371f3148cdc">LoadDictionary</a> (const <a class="el" href="a03046.html">ParamsVectors</a> *params, const char *lang, <a class="el" href="a03086.html">TessdataManager</a> *mgr)</td></tr>
+<tr class="memitem:ad356c8be28240520ad5be371f3148cdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#ad356c8be28240520ad5be371f3148cdc">LoadDictionary</a> (const <a class="el" href="a03046.html">ParamsVectorSet</a> *params, const char *lang, <a class="el" href="a03086.html">TessdataManager</a> *mgr)</td></tr>
 <tr class="separator:ad356c8be28240520ad5be371f3148cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff710e8f3402259ed96672d4c366118e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03506.html#aff710e8f3402259ed96672d4c366118e">RecognizeLine</a> (const <a class="el" href="a02766.html">ImageData</a> &amp;image_data, bool invert, bool debug, double worst_dict_cert, const <a class="el" href="a02898.html">TBOX</a> &amp;line_box, <a class="el" href="a02442.html">PointerVector</a>&lt; <a class="el" href="a02830.html">WERD_RES</a> &gt; *words, int lstm_choice_mode=0, int lstm_choice_amount=5)</td></tr>
 <tr class="separator:aff710e8f3402259ed96672d4c366118e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1364,7 +1364,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool tesseract::LSTMRecognizer::Load </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a03046.html">ParamsVectors</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="a03046.html">ParamsVectorSet</a> *&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1437,7 +1437,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool tesseract::LSTMRecognizer::LoadDictionary </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a03046.html">ParamsVectors</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="a03046.html">ParamsVectorSet</a> *&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -2617,7 +2617,7 @@ Protected Attributes</h2></td></tr>
 <div class="ttc" id="aa03506_html_ab5635bc6fefc6f5d434455ed44f1454e"><div class="ttname"><a href="a03506.html#ab5635bc6fefc6f5d434455ed44f1454e">tesseract::LSTMRecognizer::IsIntMode</a></div><div class="ttdeci">bool IsIntMode() const</div><div class="ttdef"><b>Definition:</b> <a href="a00890_source.html#l00070">lstmrecognizer.h:70</a></div></div>
 <div class="ttc" id="aa03506_html_aa12337ff92e33b3549ef5d9a49c9babb"><div class="ttname"><a href="a03506.html#aa12337ff92e33b3549ef5d9a49c9babb">tesseract::LSTMRecognizer::search_</a></div><div class="ttdeci">RecodeBeamSearch * search_</div><div class="ttdef"><b>Definition:</b> <a href="a00890_source.html#l00294">lstmrecognizer.h:294</a></div></div>
 <div class="ttc" id="aa03514_html_a37d0d904f6ebfdd47c23eaab1d6544c1"><div class="ttname"><a href="a03514.html#a37d0d904f6ebfdd47c23eaab1d6544c1">tesseract::Network::XScaleFactor</a></div><div class="ttdeci">virtual int XScaleFactor() const</div><div class="ttdef"><b>Definition:</b> <a href="a00902_source.html#l00209">network.h:209</a></div></div>
-<div class="ttc" id="aa03506_html_ad356c8be28240520ad5be371f3148cdc"><div class="ttname"><a href="a03506.html#ad356c8be28240520ad5be371f3148cdc">tesseract::LSTMRecognizer::LoadDictionary</a></div><div class="ttdeci">bool LoadDictionary(const ParamsVectors *params, const char *lang, TessdataManager *mgr)</div><div class="ttdef"><b>Definition:</b> <a href="a00887_source.html#l00167">lstmrecognizer.cpp:167</a></div></div>
+<div class="ttc" id="aa03506_html_ad356c8be28240520ad5be371f3148cdc"><div class="ttname"><a href="a03506.html#ad356c8be28240520ad5be371f3148cdc">tesseract::LSTMRecognizer::LoadDictionary</a></div><div class="ttdeci">bool LoadDictionary(const ParamsVectorSet *params, const char *lang, TessdataManager *mgr)</div><div class="ttdef"><b>Definition:</b> <a href="a00887_source.html#l00167">lstmrecognizer.cpp:167</a></div></div>
 <div class="ttc" id="aa03506_html_acc474db9d4c2d9d4512db768f97d2e79"><div class="ttname"><a href="a03506.html#acc474db9d4c2d9d4512db768f97d2e79">tesseract::LSTMRecognizer::randomizer_</a></div><div class="ttdeci">TRand randomizer_</div><div class="ttdef"><b>Definition:</b> <a href="a00890_source.html#l00289">lstmrecognizer.h:289</a></div></div>
 <div class="ttc" id="aa02450_html_a821ab9cea24381cfb980b3ec92a2c1eb"><div class="ttname"><a href="a02450.html#a821ab9cea24381cfb980b3ec92a2c1eb">tesseract::TRand::IntRand</a></div><div class="ttdeci">int32_t IntRand()</div><div class="ttdef"><b>Definition:</b> <a href="a00014_source.html#l00080">helpers.h:80</a></div></div>
 <div class="ttc" id="aa02542_html"><div class="ttname"><a href="a02542.html">STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="a00044_source.html#l00045">strngs.h:45</a></div></div>

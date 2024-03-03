@@ -21,7 +21,7 @@ var searchData=
   ['instance_5f_14310',['instance_',['../a03874.html#a89217e4e6e96a4826f68dc2681c90771',1,'tesseract::LigatureTable']]],
   ['int_14311',['int',['../a01827.html#a09a009a90bfc702287cb52f5b818acda',1,'tesstrain_utils']]],
   ['int_5fmode_5f_14312',['int_mode_',['../a03438.html#ab8d15fdb015b6075b55d2fd5eb46035c',1,'tesseract::FullyConnected']]],
-  ['int_5fparams_14313',['int_params',['../a03046.html#a5006b659baa52bc82425a01433bf1a71',1,'tesseract::ParamsVectors']]],
+  ['int_5fparams_14313',['int_params',['../a03046.html#a5006b659baa52bc82425a01433bf1a71',1,'tesseract::ParamsVectorSet']]],
   ['interactive_5fdisplay_5fmode_14314',['interactive_display_mode',['../a02658.html#a51f1cb37c2fff5e2ade385b160c3a0e3',1,'tesseract::Tesseract']]],
   ['intfeatdesc_14315',['IntFeatDesc',['../a00662.html#abcae860ec494b3a15b6db31638a1d2f2',1,'featdefs.h']]],
   ['intsimdmatrix_14316',['intSimdMatrix',['../a02570.html#ad7321e9f71f4d5e2c8920c370acb25ac',1,'tesseract::IntSimdMatrix']]],

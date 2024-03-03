@@ -55,7 +55,7 @@ var searchData=
   ['doc_5foutline_5ferrs_14131',['doc_outline_errs',['../a02650.html#a37743585e9509a4533ae54df8f575f27',1,'tesseract::TesseractStats']]],
   ['done_14132',['done',['../a02830.html#a2bd2ff4f993746fc87d3ee88357a4a88',1,'WERD_RES']]],
   ['dotproduct_14133',['DotProduct',['../a01818.html#a9ab0e86b57d2b88cdc6af72ff02c93d2',1,'tesseract']]],
-  ['double_5fparams_14134',['double_params',['../a03046.html#a8fa1f078ca627582879eaadc6e00a2ba',1,'tesseract::ParamsVectors']]],
+  ['double_5fparams_14134',['double_params',['../a03046.html#a8fa1f078ca627582879eaadc6e00a2ba',1,'tesseract::ParamsVectorSet']]],
   ['drop_5funcovered_5fchars_5f_14135',['drop_uncovered_chars_',['../a03914.html#adc20e4898963cda4ecfa883090b0b7ad',1,'tesseract::StringRenderer']]],
   ['dump_5fwords_5fstr_14136',['dump_words_str',['../a02650.html#aaddff0b5e3101637acc25da59fe97065',1,'tesseract::TesseractStats']]],
   ['duplicate_14137',['duplicate',['../a03554.html#a03564adce24f4488f6743636257a4b4d',1,'tesseract::RecodeNode']]]

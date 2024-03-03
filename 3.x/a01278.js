@@ -143,7 +143,7 @@ var a01278 =
     [ "ParamsModel", "a00513.html", "a00513" ],
     [ "ParamsTrainingBundle", "a00514.html", "a00514" ],
     [ "ParamsTrainingHypothesis", "a00515.html", "a00515" ],
-    [ "ParamsVectors", "a00516.html", "a00516" ],
+    [ "ParamsVectorSet", "a00516.html", "a00516" ],
     [ "ParamUtils", "a00517.html", null ],
     [ "PixelHistogram", "a00522.html", "a00522" ],
     [ "PointerVector", "a00523.html", "a00523" ],
